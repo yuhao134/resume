@@ -52,7 +52,12 @@ html,body,.main{
     height: 100%;
     z-index: 99;
 }
-/*首页*/
+.slide1,.slide2,.slide3,.slide4,.slide5,.slide6,.slide7{
+    overflow: hidden;
+}
+
+    /*首页*/
+
 .slide1 img{
     position: absolute;
     opacity: 0;
@@ -114,38 +119,38 @@ html,body,.main{
     width: 2.05rem;
     height: 1.69rem;
     left: 1.6rem;
-    top: 0.68rem;
+    top: 0.38rem;
 }
 .slide2 img:nth-child(2){
     width: 2.5rem;
     height: 7.3rem;
     right: 2.4rem;
-    top: 1.2rem;
+    top: 0.9rem;
 }
 .slide2 img:nth-child(3){
     width: 1.3rem;
     height: 0.9rem;
     right: 1.6rem;
-    top: 3.3rem;
+    top: 3.0rem;
 }
 .slide2 img:nth-child(4) {
     width: 0.4rem;
     height: 0.7rem;
     left: 1.0rem;
-    top: 8.7rem;
+    top: 8.4rem;
 }
 .slide2 img:nth-child(5){
     width: 0.6rem;
     height: 0.4rem;
     left: 0.9rem;
-    top: 9.6rem;
+    top: 9.3rem;
 }
 .slide2 span.phone{
     font-size: 20px;
     /*font-weight: 700;*/
     display: block;
     position: absolute;
-    top:8.7rem;
+    top:8.4rem;
     left:1.7rem;
 
 }
@@ -154,7 +159,7 @@ html,body,.main{
     /*font-weight: 700;*/
     display: block;
     position: absolute;
-    top:9.6rem;
+    top:9.3rem;
     left:1.7rem;
 }
 /* 3 页 */
@@ -172,7 +177,7 @@ html,body,.main{
     width: 2.6rem;
     height: 0.8rem;
     left: 0.1rem;
-    top: 0.8rem;
+    top: 0.5rem;
 }
 .slide3 span{
     /*opacity: 0;*/
@@ -184,87 +189,87 @@ html,body,.main{
     font-size: 25px;
     color: white;
     position: absolute;
-    top:0.9rem;
+    top:0.6rem;
     left:0.5rem;
 }
 .slide3 span.name{
     position: absolute;
-    top: 2.3rem;
+    top: 2.0rem;
     left: 0.3rem;
 }
 .slide3 span.name1{
     position: absolute;
-    top: 2.3rem;
+    top: 2.0rem;
     left: 1.6rem;
 }
 .slide3 span.sex{
     position: absolute;
-    top: 3.3rem;
+    top: 3.0rem;
     left: 0.3rem;
 }
 .slide3 span.sex1{
     position: absolute;
-    top: 3.3rem;
+    top: 3.0rem;
     left: 1.6rem;
 }
 .slide3 span.nation{
     position: absolute;
-    top: 4.3rem;
+    top: 4.0rem;
     left: 0.3rem;
 }
 .slide3 span.nation1{
     position: absolute;
-    top: 4.3rem;
+    top: 4.0rem;
     left: 1.6rem;
 }
 .slide3 span.old{
     position: absolute;
-    top: 5.3rem;
+    top: 5.0rem;
     left: 0.3rem;
 }
 .slide3 span.old1{
     position: absolute;
-    top: 5.3rem;
+    top: 5.0rem;
     left: 1.6rem;
 }
 .slide3 span.edu{
     position: absolute;
-    top: 6.3rem;
+    top: 6.0rem;
     left: 0.3rem;
 }
 .slide3 span.edu1{
     position: absolute;
-    top: 6.3rem;
+    top: 6.0rem;
     left: 1.6rem;
 }
 .slide3 span.major{
     position: absolute;
-    top: 7.3rem;
+    top: 7.0rem;
     left: 0.3rem;
 }
 .slide3 span.major1{
     position: absolute;
-    top: 7.3rem;
+    top: 7.0rem;
     left: 1.6rem;
 }
 .slide3 span.school{
     position: absolute;
-    top: 8.3rem;
+    top: 8.0rem;
     left: 0.3rem;
 }
 .slide3 span.school1{
     position: absolute;
-    top: 8.3rem;
+    top: 8.0rem;
     left: 1.6rem;
 }
 .slide3 span.test{
     position: absolute;
-    top: 9.3rem;
+    top: 9.0rem;
     left: 0.3rem;
 }
 .slide3 span.test1{
     position: absolute;
-    top: 10.3rem;
+    top: 10.0rem;
     left: 0.3rem;
 }
 /* 4 页 */
@@ -279,7 +284,7 @@ html,body,.main{
     width: 2.6rem;
     height: 0.8rem;
     left: 0.1rem;
-    top: 0.8rem;
+    top: 0.5rem;
     position: absolute;
     opacity: 0;
 }
@@ -292,37 +297,37 @@ html,body,.main{
     font-size: 25px;
     color: white;
     position: absolute;
-    top:0.9rem;
+    top:0.6rem;
     left:0.5rem;
 }
 .slide4 span.job{
     position: absolute;
-    top: 2.3rem;
+    top: 2.0rem;
     left: 0.3rem;
 }
 .slide4 span.job1{
     position: absolute;
-    top: 3.3rem;
+    top: 3.0rem;
     left: 1rem;
 }
 .slide4 span.pay{
     position: absolute;
-    top: 4.3rem;
+    top: 4.0rem;
     left: 0.3rem;
 }
 .slide4 span.pay1{
     position: absolute;
-    top: 5.3rem;
+    top: 5.0rem;
     left: 1rem;
 }
 .slide4 span.time{
     position: absolute;
-    top: 6.3rem;
-    left: 0.3rem;
+    top: 6.0rem;
+    left: 0.0rem;
 }
 .slide4 span.time1{
     position: absolute;
-    top: 7.3rem;
+    top: 7.0rem;
     left: 1rem;
 }
 /* 5 页 */
@@ -337,7 +342,7 @@ html,body,.main{
     width: 2.6rem;
     height: 0.8rem;
     left: 0.1rem;
-    top: 0.8rem;
+    top: 0.5rem;
     position: absolute;
     opacity: 0;
 }
@@ -349,37 +354,37 @@ html,body,.main{
     font-size: 25px;
     color: white;
     position: absolute;
-    top:0.9rem;
+    top:0.6rem;
     left:0.5rem;
 }
 .slide5 span.time{
     position: absolute;
-    top: 2.3rem;
+    top: 2.0rem;
     left: 0.3rem;
 }
 .slide5 span.company{
     position: absolute;
-    top: 3.3rem;
+    top: 3.0rem;
     left: 0.3rem;
 }
 .slide5 span.time1{
     position: absolute;
-    top: 4.3rem;
+    top: 4.0rem;
     left: 1rem;
 }
 .slide5 span.job{
     position: absolute;
-    top: 6.3rem;
+    top: 6.0rem;
     left: 0.3rem;
 }
 .slide5 span.company1{
     position: absolute;
-    top: 7.3rem;
+    top: 7.0rem;
     left: 0.3rem;
 }
 .slide5 span.job1{
     position: absolute;
-    top: 8.3rem;
+    top: 8.0rem;
     left: 1rem;
 }
 
@@ -395,7 +400,7 @@ html,body,.main{
     width: 2.6rem;
     height: 0.8rem;
     left: 0.1rem;
-    top: 0.8rem;
+    top: 0.5rem;
     position: absolute;
     opacity: 0;
 }
@@ -406,42 +411,42 @@ html,body,.main{
     font-size: 25px;
     color: white;
     position: absolute;
-    top:0.9rem;
+    top:0.6rem;
     left:0.5rem;
 }
 .slide6 span:nth-child(3){
     position: absolute;
-    top: 2.3rem;
+    top: 2.0rem;
     left: 0.3rem;
 }
 .slide6 span:nth-child(4){
     position: absolute;
-    top: 3.3rem;
+    top: 3.0rem;
     left: 0.3rem;
 }
 .slide6 span:nth-child(5){
     position: absolute;
-    top: 5rem;
+    top: 4.7rem;
     left: 0.3rem;
 }
 .slide6 span:nth-child(6){
     position: absolute;
-    top: 6.7rem;
+    top: 6.4rem;
     left: 0.3rem;
 }
 .slide6 span:nth-child(7){
     position: absolute;
-    top: 7.7rem;
+    top: 7.4rem;
     left: 0.3rem;
 }
 .slide6 span:nth-child(8){
     position: absolute;
-    top: 8.7rem;
+    top: 8.4rem;
     left: 0.3rem;
 }
 .slide6 span:nth-child(9){
     position: absolute;
-    top: 9.7rem;
+    top: 9.4rem;
     left: 0.3rem;
 }
 
