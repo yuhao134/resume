@@ -212,57 +212,57 @@ html,body,.main{
     top: 3.0rem;
     left: 1.6rem;
 }
-.slide3 span.nation{
-    position: absolute;
-    top: 4.0rem;
-    left: 0.3rem;
-}
-.slide3 span.nation1{
-    position: absolute;
-    top: 4.0rem;
-    left: 1.6rem;
-}
 .slide3 span.old{
     position: absolute;
-    top: 5.0rem;
+    top: 4.0rem;
     left: 0.3rem;
 }
 .slide3 span.old1{
     position: absolute;
-    top: 5.0rem;
+    top: 4.0rem;
     left: 1.6rem;
 }
 .slide3 span.edu{
     position: absolute;
-    top: 6.0rem;
+    top: 5.0rem;
     left: 0.3rem;
 }
 .slide3 span.edu1{
     position: absolute;
-    top: 6.0rem;
+    top: 5.0rem;
     left: 1.6rem;
 }
 .slide3 span.major{
     position: absolute;
-    top: 7.0rem;
+    top: 6.0rem;
     left: 0.3rem;
 }
 .slide3 span.major1{
     position: absolute;
-    top: 7.0rem;
+    top: 6.0rem;
     left: 1.6rem;
 }
 .slide3 span.school{
     position: absolute;
-    top: 8.0rem;
+    top: 7.0rem;
     left: 0.3rem;
 }
 .slide3 span.school1{
     position: absolute;
-    top: 8.0rem;
+    top: 7.0rem;
     left: 1.6rem;
 }
 .slide3 span.test{
+    position: absolute;
+    top: 8.0rem;
+    left: 0.3rem;
+}
+.slide3 span.test1{
+    position: absolute;
+    top: 9.0rem;
+    left: 0.3rem;
+}
+/*.slide3 span.test{
     position: absolute;
     top: 9.0rem;
     left: 0.3rem;
@@ -271,7 +271,7 @@ html,body,.main{
     position: absolute;
     top: 10.0rem;
     left: 0.3rem;
-}
+}*/
 /* 4 页 */
 .slide4{
     background: url("../img/file_56036c252800b.jpg") no-repeat ;
