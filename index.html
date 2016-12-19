@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="./css/animate.css"/>
+    <link rel="stylesheet" href="./css/reset.min.css"/>
+    <link rel="stylesheet" href="./css/swiper.min.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <script>
+        ~function(){
+            var desW = 640;
+            var winW = document.documentElement.clientWidth;
+            if(winW > 640 ) return;
+            document.documentElement.style.fontSize = winW / desW *100 + 'px';
+        }();
+    </script>
+</head>
+<body>
+<section class="main">
+    <div class="music">
+        <audio src="audio/beyond.mp3" loop preload="none" id="beyond"></audio>
+        <!--
+        preload:none 不提前进行预加载
+               :auto 提前进行预加载
+        -->
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!--  style="display: none"-->
+            <div class="swiper-slide slide1" style="display:block">
+                <img src="./img/file_54cee7a0b8b6c.png" alt=""/>
+                <img src="./img/QQ图片.jpg" alt="" style="border-radius: 50%"/>
+                <img src="./img/file_54cee79ea8324.png" alt=""/>
+                <img src="./img/file_54cee7a03af6d.png" alt=""/>
+                <img src="./img/file_54cee7a00f64b.png" alt=""/>
+                <!--<img src="./img/next.png" alt=""/>-->
+                <span>于 浩</span>
+            </div>
+            <div class="swiper-slide slide2" style="display:block">
+                <img src="./img/file_54cee7a2c2635.png" alt=""/>
+                <img src="./img/file_54cee7a281b7d.png" alt=""/>
+                <img src="./img/file_54cee7a0e628c.png" alt=""/>
+                <img src="./img/file_560399eeb48f7.png" alt=""/>
+                <img src="./img/file_560399ee6c1ca.png" alt=""/>
+                <span class="phone">13488784342</span>
+                <span class="mail">13488784342@163.com</span>
+            </div>
+            <div class="swiper-slide slide3">
+                <img src="./img/file_56036cbe3fd53.png" alt=""/>
+                <span class="info">基本信息</span>
+                <span class="name">姓名</span>
+                <span class="sex">性别</span>
+                <span class="nation">民族</span>
+                <span class="old">年龄</span>
+                <span class="edu">学历</span>
+                <span class="major">专业</span>
+                <span class="school">院校</span>
+                <span class="name1">于浩</span>
+                <span class="sex1">男</span>
+                <span class="nation1">汉族</span>
+                <span class="old1">27</span>
+                <span class="edu1">专科</span>
+                <span class="major1">人力资源</span>
+                <span class="school1">北京汇佳职业学院</span>
+                <span class="test">华北电力大学（成考本科）</span>
+                <span class="test1">计算机科学与技术</span>
+            </div>
+            <div class="swiper-slide slide5">
+                <img src="./img/file_56036cbe3fd53.png" alt=""/>
+                <span class="info">工作经历</span>
+                <span class="time">2010/8 - 2012/10</span>
+                <span class="company">北京利德华福电气技术有限公司</span>
+                <span class="job">高压测试及售后服务</span>
+                <!--<span class="time1"></span>
+                <span class="company1"></span>
+                <span class="job1"></span>-->
+            </div>
+            <div class="swiper-slide slide4">
+                <img src="./img/file_56036cbe3fd53.png" alt=""/>
+                <span class="info">求职信息</span>
+                <span class="job">目标职位</span>
+                <span class="pay">期望薪资</span>
+                <span class="time">到岗时间</span>
+                <span class="job1">前端开发工程师</span>
+                <span class="pay1">xxx</span>
+                <span class="time1">一周内</span>
+            </div>
+            <div class="swiper-slide slide6">
+                <img src="./img/file_56036cbe3fd53.png" alt=""/>
+                <span class="info">掌握技能</span>
+                <span>HTML5、CSS3、JavaScript</span>
+                <span>熟悉W3C标准与ES规范，熟悉Web语义化</span>
+                <span>盒模型、常用布局以及浏览器和移动设备兼容性</span>
+                <span>jquery angular react Bootstrap</span>
+                <span>Ajax</span>
+                <span>Nodejs</span>
+                <span>gulp webpack</span>
+
+            <!--<span>
+                    熟练使用各种调试、抓包工具，能独立分析、解决和归纳问题
+                    4.精通JavaScript，对JavaScript异步编程、组件化开发有较为深入的理解
+                    2.有自己的技术博客并持续更新
+                    3.对开源项目做过贡献
+                    3、了解 es6，Promise，async/await 等语法特性，了解前后分离架构；
+                    4、熟悉 http 协议和 RESTFul 接口对接，了解后端服务的工作原理，可以使用 express.js/koa 搭建服务端路由；
+                    了解测试的重要性，熟悉测试驱动开发
+                    2.GitHub 有 500 以上 star 的前端项目
+                    4.有网页可视化编辑器的开发经验
+                    1.计算机相关专业本科以上学历，五年以上互联网前端开发经验；
+                    7.熟悉JS的调试、优化技术
+                    4.对标签语义化及数据与表现分离理解深刻；
+                </span>-->
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+<script src="./js/swiper.min.js"></script>
+<script>
+    var music = document.querySelector(".music");
+    var beyond = document.querySelector("#beyond");
+    window.setTimeout(function(){
+        beyond.play();
+        beyond.addEventListener("canplay",function(){
+            music.className = "music musicCur";
+        })
+    },1000)
+    music.addEventListener("click",function(){
+        //paused属性判断音频文件是播放的还是停止 beyond.paused=true说明音频文件目前是停止播放
+        //让音频文件播放play(),让音频文件停止是pause();
+        if(beyond.paused){//停止
+            beyond.play();
+            music.className = "music musicCur";
+        }else{
+            beyond.pause();
+            music.className = "music";
+            music.style.opacity = 1;
+        }
+    },false)
+
+    /*不是循环模式的处理*/
+    /*  var mySwiper = new Swiper(".swiper-container",{
+     direction:"vertical",
+     onTransitionEnd:function(swiper){
+     var curIndex = swiper.activeIndex;//当前显示的滑块的索引
+     var slides = swiper.slides;//获得所有的滑块
+     [].forEach.call(slides,function(item,index){
+     item.id="";//把所有滑块的索引去掉
+     if(index ==curIndex ){
+     item.id = "page"+(curIndex+1);
+     }
+     })
+     },
+     onInit : function(swiper){
+     //对第一个滑块初始化
+     var slides = swiper.slides;
+     slides[0].id = "page1";
+     }
+
+     })*/
+    /*循环模式*/
+    var mySwiper = new Swiper(".swiper-container",{
+        direction:"vertical",
+        loop:true,
+        onTransitionEnd :function(swiper){
+            //把原来的第一个滑块复制了一份放在最后的位置，
+            //把原来的最后一个滑块复制了一份放在第一个位置
+            var slides = swiper.slides;
+            var curIndex = swiper.activeIndex;
+            var lastIndexSlide = slides.length-1;//现在最后一个滑块
+            var trueIndexSlide = slides.length-2;//原来最后一个滑块
+            [].forEach.call(slides,function(item,index){
+                item.id = "";
+                if(curIndex == index){//对当前显示的滑块做判断
+                    switch (index){
+                        case 0:
+                            item.id = "page"+trueIndexSlide;
+                            break;
+                        case lastIndexSlide:
+                            item.id = "page1";
+                            break;
+                        default:
+                            item.id = "page"+curIndex;
+                    }
+                }
+
+            })
+
+        }
+    })
+
+
+
+
+</script>
